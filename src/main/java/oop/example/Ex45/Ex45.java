@@ -2,7 +2,7 @@
  * UCF COP3330 Summer 2021 Assignment 3 Solution
  * Copyright 2021 Keri Mullens
  */
-package oop.example;
+package oop.example.Ex45;
 
 public class Ex45 {
     public static void main(String[] args) {

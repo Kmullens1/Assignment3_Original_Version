@@ -1,12 +1,15 @@
-package oop.example;
+package oop.example.Ex41;
+
+import java.util.Scanner;
 
 public class Ex41 {
-    public static void main(String[] args) {
-    //Pseudo Code
-    //Code
-    //Multiple Classes
-    //UML Class Diagrams
-    //Test Cases
+    public static void main(String[] args) throws Exception {
+    /* Points for:
+    Pseudo Code
+    Code
+    Multiple Classes
+    UML Class Diagrams
+    Test Cases*/
 
 
         //Name Sorter
@@ -22,7 +25,8 @@ public class Ex41 {
             Swift, Geoffrey
             Xiong, Fong
 
-        Read this program and sort the list alphabetically. Then print the sorted list to a file that looks like thefollowing example output.
+        Read this program and sort the list alphabetically. Then print the sorted list to a
+        file that looks like the following example output.
         Example Output
             Total of 7 names
             -----------------
@@ -35,6 +39,18 @@ public class Ex41 {
             Zarnecki, Sabrina
         Constraint
             Don't hard-code the number of names.*/
+
+        System.out.println("Total of 7 names\n-----------------");
+
+        //Read from File
+        ReadingFromFile accessFile;
+        accessFile = new ReadingFromFile();
+        String names[] = accessFile.function();
+
+        //Sort the Names
+        SortNames sort;
+        sort = new SortNames();
+        sort.sortNamesFunction(names);
 
     }
 }
