@@ -1,3 +1,7 @@
+/*
+ * UCF COP3330 Summer 2021 Assignment 3 Solution
+ * Copyright 2021 Keri Mullens
+ */
 package oop.example.Ex41;
 import java.io.*;
 import java.util.Scanner;

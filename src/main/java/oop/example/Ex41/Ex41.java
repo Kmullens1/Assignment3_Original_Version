@@ -1,3 +1,8 @@
+/*
+ * UCF COP3330 Summer 2021 Assignment 3 Solution
+ * Copyright 2021 Keri Mullens
+ */
+
 package oop.example.Ex41;
 
 import java.util.Scanner;
@@ -45,12 +50,12 @@ public class Ex41 {
         //Read from File
         ReadingFromFile accessFile;
         accessFile = new ReadingFromFile();
-        String names[] = accessFile.function();
+        String[] names = ReadingFromFile.function();
 
         //Sort the Names
         SortNames sort;
         sort = new SortNames();
-        sort.sortNamesFunction(names);
+        SortNames.sortNamesFunction(names);
 
     }
 }
